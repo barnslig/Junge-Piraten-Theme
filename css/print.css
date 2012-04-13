@@ -1,0 +1,23 @@
+aside, header, #respond, .comment-reply-link, #paged-nav, #slides-container {
+	display:		none;
+}
+body {
+	background:		none;
+}
+#content {
+	margin-left:	0;
+}
+#content article h2:not(.this):first-child {
+	border-left:	4px #1A75CF solid;
+	padding-left:	11px;
+}
+#content article h2:not(.this):first-child a {
+	color:			black;
+}
+#content article p, .comment {
+	font-family:	serif;
+	font-size:		14px;
+}
+.depth-0, .depth-2, .depth-4 {
+	border-left:	1px gray solid;
+}

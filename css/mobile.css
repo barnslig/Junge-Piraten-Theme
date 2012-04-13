@@ -1,0 +1,77 @@
+body {
+	background-attachment:	scroll;
+}
+#content {
+	margin-left:	0;
+}
+aside {
+	position:		static;
+}
+textarea {
+	width:			100%;
+}
+header {
+	height:			auto;
+}
+header h1 {
+	margin-right:	0;
+}
+header #right {
+	clear:			left;
+	margin-left:	0;
+	height:			auto;
+	width:			100%;
+	margin-bottom:	17px;
+	padding-bottom:	5px;
+}
+header #right nav {
+	margin-top:		-10px;
+	margin-left:	14px;
+	overflow:hidden;
+}
+header nav ul li ul {
+	display:		block;
+	position:		static;
+	width:			auto;
+}
+header nav ul li ul li {
+	margin-bottom:	0;
+}
+header nav ul li {
+	clear:			left;
+	margin-bottom:	10px;
+}
+header nav ul li.current_page_item a {
+	border:			none;
+	color:			gray;
+}
+header nav ul li.current_page_item ul li a {
+	color:			white;
+}
+header nav ul li.current_page_item ul li a:hover {
+	color:			#666;
+}
+
+@media (max-width: 767px) {
+	#all, aside {
+		width:			252px;
+	}
+	header nav ul li ul li a {
+		width:			200px;
+	}
+	header h1 {
+		margin-left:	70px;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 767px)  {
+	#all, aside {
+		width:			436px;
+	}
+	header nav ul li ul li a {
+		width:			400px;
+	}
+	header h1 {
+		margin-left:	150px;
+	}
+}

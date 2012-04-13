@@ -1,0 +1,147 @@
+/* fonts */
+@font-face {
+	src: 			url('fonts/BebasNeue/BebasNeue-webfont.eot');
+	src: 			url('fonts/BebasNeue/BebasNeue-webfont.eot?#iefix')				format('embedded-opentype'),
+					url('fonts/BebasNeue/BebasNeue-webfont.woff')					format('woff'),
+					url('fonts/BebasNeue/BebasNeue-webfont.ttf')					format('truetype'),
+					url('fonts/BebasNeue/BebasNeue-webfont.svg#BebasNeueRegular')	format('svg');
+	font-family:	BebasNeueRegular;
+	font-weight:	normal;
+	font-style:		normal;
+}
+@font-face {
+	src:			url('fonts/OpenSans/OpenSans-Regular-webfont.eot');
+	src:			url('fonts/OpenSans/OpenSans-Regular-webfont.eot?#iefix')			format('embedded-opentype'),
+					url('fonts/OpenSans/OpenSans-Regular-webfont.woff')					format('woff'),
+					url('fonts/OpenSans/OpenSans-Regular-webfont.ttf')					format('truetype'),
+					url('fonts/OpenSans/OpenSans-Regular-webfont.svg#OpenSansRegular')	format('svg');
+	font-family:	'Open Sans';
+	font-weight:	400;
+	font-style:		normal;
+}
+@font-face {
+	src:			url('fonts/OpenSans/OpenSans-Light-webfont.eot');
+	src:			url('fonts/OpenSans/OpenSans-Light-webfont.eot?#iefix')				format('embedded-opentype'),
+					url('fonts/OpenSans/OpenSans-Light-webfont.woff')					format('woff'),
+					url('fonts/OpenSans/OpenSans-Light-webfont.ttf')					format('truetype'),
+					url('fonts/OpenSans/OpenSans-Light-webfont.svg#OpenSansRegular')	format('svg');
+	font-family:	'Open Sans';
+	font-weight:	300;
+	font-style:		normal;
+}
+@font-face {
+	src:			url('fonts/OpenSans/OpenSans-Bold-webfont.eot');
+	src:			url('fonts/OpenSans/OpenSans-Bold-webfont.eot?#iefix')			format('embedded-opentype'),
+					url('fonts/OpenSans/OpenSans-Bold-webfont.woff')				format('woff'),
+					url('fonts/OpenSans/OpenSans-Bold-webfont.ttf')					format('truetype'),
+					url('fonts/OpenSans/OpenSans-Bold-webfont.svg#OpenSansRegular')	format('svg');
+	font-family:	'Open Sans';
+	font-weight:	700;
+	font-style:		normal;
+}
+
+/* general things */
+body {
+	font-family:	'Open Sans', sans-serif;
+	background:		url('images/background.png') fixed repeat;
+}
+
+img {
+	border:			0;
+}
+
+h1, h2, h3, h4 {
+	font-family:	BebasNeueRegular, 'Times New Roman', sans;
+	font-weight:	normal;
+}
+
+a, a:visited {
+	text-decoration:none;
+	color:			#1A75CF;
+}
+a:hover {
+	color:			black;
+}
+
+hr {
+	border:			0;
+	border-top:		1px lightgray solid;
+	height:			1px;
+}
+
+/* content */
+#content article, .commentlist, #respond {
+	overflow:			hidden;
+	color:				#2B2926;
+	background:			white;
+	padding-left:		15px;
+	padding-right:		15px;
+	margin-bottom:		17px;
+}
+#content article h2 {
+	margin:			0;
+	margin-top:		15px;
+	margin-left:	-15px;
+	padding-left:	15px;
+}
+#content article h2:hover, #content article h2.this {
+	border-left:	4px #1A75CF solid;
+	padding-left:	11px;
+}
+#content article h2 a  {
+	color:			#1A75CF;
+}
+#content article h2:hover a, #content article h2.this a {
+	color:			black;
+}
+#content article h3 {
+	font-size:		15px;
+	font-weight:	lighter;
+}
+#content article small a {
+	color:			#333;
+	font-weight:	lighter;
+}
+#content article small a:hover {
+	font-weight:	normal;
+}
+#content article p, #content article ul, #content article ol {
+	font-size:		14px;
+	line-height:	1.5em;
+	word-spacing:	1px;
+	letter-spacing:	0.4px;
+}
+/* content specials */
+	/* comments */
+	.commentlist, .children {
+		list-style:		none;
+		margin:			0;
+		padding:		0;
+		font-size:		12px;
+	}
+	.commentlist li {
+		padding:		7px;
+		padding-left:	10px;
+	}
+	#respond {
+		margin-top:		17px;
+	}
+	.children {
+		margin-left:	40px;
+	}
+	.commentlist, #respond {
+		background:		white;
+	}
+	.comment-author, .comment-meta, .comment-reply-link {
+		font-size:		10px;
+	}
+	.depth-0, .depth-2, .depth-4 {
+		background:		#eee;
+	}
+	.depth-1, .depth-3, .depth-5 {
+		background:		white;
+	}
+	/* things */
+	.alignright {
+		float:			right;
+	}
