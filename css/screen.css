@@ -175,6 +175,7 @@ header nav ul li ul li.current_page_item a {
 		margin-top:		-16px;
 		margin-right:	-20px;
 		margin-bottom:	-16px;
+		background-size:100%;
 	}
 	#slides-container #slides li span {
 		position:		absolute;

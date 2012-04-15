@@ -76,6 +76,9 @@ header nav ul li.current_page_item ul li a:hover {
 	header h1 {
 		margin-left:	170px;
 	}
+	#slides-container #slides {
+		height:			124px;
+	}
 }
 
 @media (max-width: 480px) {
