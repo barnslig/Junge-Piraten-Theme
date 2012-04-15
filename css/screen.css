@@ -1,7 +1,9 @@
+body {
+	margin-top:		0;
+}
 #all {
 	width:			900px;
 	margin:			auto;
-	position:		relative;
 }
 /* shadows */
 input[type=text]:focus, textarea:focus, input[type=submit]:hover {
@@ -147,7 +149,8 @@ header nav ul li ul li.current_page_item a {
 
 /* content */
 #content {
-	margin-left:	230px;
+	width:			670px;
+	float:			right;
 }
 /* content specials */
 	/* slides */
@@ -203,9 +206,8 @@ header nav ul li ul li.current_page_item a {
 
 /* sidebar */
 aside {
-	position:		absolute;
-	top:			158px;
 	width:			215px;
+	float:			left;
 }
 aside .box {
 	background:		white;
