@@ -71,6 +71,9 @@ header nav ul li.current_page_item ul li a:hover {
 	header h1 {
 		margin-left:	70px;
 	}
+	#slides-container #slides {
+		height:			60px;
+	}
 }
 
 @media (min-width: 480px) and (max-width: 767px)  {
@@ -89,7 +92,10 @@ header nav ul li.current_page_item ul li a:hover {
 }
 
 @media (max-width: 480px) {
-	#slides-container {
-		display:		none;
+	#slides-container #slides li span {
+		font-size:		11px;
+		padding:		1px;
+		padding-right:	14px;
+		bottom:			10px;
 	}
 }
