@@ -90,6 +90,7 @@ hr {
 }
 #content article h2 a  {
 	color:			#1A75CF;
+	display:block;
 }
 #content article h2:hover a, #content article h2.this a {
 	color:			black;

@@ -31,17 +31,24 @@ header #right nav {
 	margin-left:	14px;
 	overflow:hidden;
 }
+header nav {
+	padding-bottom:	10px;
+}
 header nav ul li ul {
 	display:		block;
 	position:		static;
 	width:			auto;
+	margin-bottom:	20px;
 }
 header nav ul li ul li {
 	margin-bottom:	0;
 }
 header nav ul li {
 	clear:			left;
-	margin-bottom:	10px;
+	margin-bottom:	-7px;
+}
+header nav ul li a {
+	display:		block;
 }
 header nav ul li.current_page_item a {
 	border:			none;
@@ -58,7 +65,7 @@ header nav ul li.current_page_item ul li a:hover {
 	#all, aside {
 		width:			252px;
 	}
-	header nav ul li ul li a {
+	header nav ul li ul li a, header nav ul li a {
 		width:			215px;
 	}
 	header h1 {
@@ -70,8 +77,8 @@ header nav ul li.current_page_item ul li a:hover {
 	#all, aside {
 		width:			436px;
 	}
-	header nav ul li ul li a {
-		width:			400px;
+	header nav ul li ul li a, header nav ul li a {
+		width:			397px;
 	}
 	header h1 {
 		margin-left:	170px;
