@@ -3,6 +3,7 @@ body {
 }
 #content {
 	margin-left:	0;
+	width:			100%;
 }
 aside {
 	position:		static;
@@ -14,7 +15,8 @@ header {
 	height:			auto;
 }
 header h1 {
-	margin-right:	0;
+	margin-top:		20px;
+	margin-bottom:	10px;
 }
 header #right {
 	clear:			left;
@@ -57,7 +59,7 @@ header nav ul li.current_page_item ul li a:hover {
 		width:			252px;
 	}
 	header nav ul li ul li a {
-		width:			200px;
+		width:			215px;
 	}
 	header h1 {
 		margin-left:	70px;
@@ -72,7 +74,7 @@ header nav ul li.current_page_item ul li a:hover {
 		width:			400px;
 	}
 	header h1 {
-		margin-left:	150px;
+		margin-left:	170px;
 	}
 }
 
