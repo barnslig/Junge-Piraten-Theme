@@ -28,8 +28,6 @@ var Blackbox = new Class({
 		this.options.element = $(ulel);
 		$(ulel).set('blackbox', this);
 		
-		$(ulel).setStyle('height', this.options.height);
-		
 		if ($(ulel).getStyle('position') != 'absolute' && $(ulel).getStyle('position') != 'fixed') {
 			$(ulel).setStyles({
 				position: 'relative'
