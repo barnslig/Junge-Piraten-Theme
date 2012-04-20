@@ -90,7 +90,7 @@ header nav ul {
 header nav ul li a, header nav ul li a:visited {
 	margin-right:	30px;
 	color:			black;
-	font-family:	BebasNeueRegular, 'Times New Roman', sans;
+	font-family:	'Bebas Neue', 'Times New Roman', serif;
 	font-size:		20px;
 	letter-spacing:	1px;
 }
@@ -188,6 +188,7 @@ header nav ul li ul li.current_page_item a {
 		text-align:		right;
 		padding:		7px;
 		padding-right:	30px;
+		font-family:	'Open Sans';
 	}
 	#slides-container #slides li:first-child {	/* javascript fallback */
 		visibility:		visible;
@@ -225,7 +226,6 @@ aside .box h2 {
 	margin-left:	9px;
 	padding:		0;
 	font-size:		20px;
-	font-weight:	lighter;
 }
 
 /* sidebar specials */
