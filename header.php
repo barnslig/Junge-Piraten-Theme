@@ -18,6 +18,11 @@
 		<script src="<?php bloginfo('template_directory'); ?>/js/mootools.js"></script>
 		<script src="<?php bloginfo('template_directory'); ?>/js/blackbox.js"></script>
 		<script>
+			// load the html5shiv to support old browsers
+			if((Browser.name === 'ie' && Browser.version < 9) || (Browser.name === 'firefox' && Browser.version < 4)) {
+				document.write(unescape('%3Cscript src="<?php bloginfo('template_directory'); ?>/js/html5shiv.js"%3E%3C/script%3E'));
+			}
+			// activate the slider if one is existing
 			window.addEvent('load', function() {
 				if(document.getElementById('slides') != null) {
 					var slider;
@@ -27,9 +32,6 @@
 				}
 			});
 		</script>
-		<!--[if lt IE 9]>
-			<script src="<?php bloginfo('template_directory'); ?>/js/html5shiv.js"></script>
-		<![endif]-->
 		<?php 
 			wp_head();
 			if(is_user_logged_in()) {
