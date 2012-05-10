@@ -1,3 +1,12 @@
+/**
+ *	The basic stylesheet that is used for the screen-, mobile-, and print-version.
+ *
+ *	@author Leonard Techel
+ *	@license https://creativecommons.org/licenses/by-sa/3.0/ (cc) by-sa 3.0
+ *	@package WordPress
+ *	@subpackage JupiTheme
+ */
+
 /* fonts */
 @font-face {
 	src: 			url('fonts/BebasNeue/BebasNeue-webfont.eot');

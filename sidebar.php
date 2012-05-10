@@ -1,3 +1,13 @@
+<?php
+	/**
+	 *	The Sidebar is containing the widgets and some static foo.
+	 *
+	 *	@author Leonard Techel
+	 *	@license https://creativecommons.org/licenses/by-sa/3.0/ (cc) by-sa 3.0
+	 *	@package WordPress
+	 *	@subpackage JupiTheme
+	 */
+?>
 			</section>
 			<aside>
 				<section class="box" style="text-align:center;">

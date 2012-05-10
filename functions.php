@@ -1,4 +1,13 @@
 <?php
+	/**
+	 *	Here are the function used by the theme and some options for wordpress.
+	 *
+	 *	@author Leonard Techel
+	 *	@license https://creativecommons.org/licenses/by-sa/3.0/ (cc) by-sa 3.0
+	 *	@package WordPress
+	 *	@subpackage JupiTheme
+	 */
+
 	register_sidebar(array(
 		'before_widget'	=> '<section class="box">',
 		'after_widget'	=> '</section>',

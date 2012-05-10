@@ -1,4 +1,13 @@
 <?php
+	/**
+	 *	Huh — Here is a pony if someone is too stupid and ends in a br0ken link.
+	 *
+	 *	@author Leonard Techel
+	 *	@license https://creativecommons.org/licenses/by-sa/3.0/ (cc) by-sa 3.0
+	 *	@package WordPress
+	 *	@subpackage JupiTheme
+	 */
+
 	get_header();
 
 	echo "<article>";

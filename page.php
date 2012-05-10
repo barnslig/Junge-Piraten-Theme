@@ -1,4 +1,13 @@
 <?php
+	/**
+	 *	The template for displaying all pages.
+	 *
+	 *	@author Leonard Techel
+	 *	@license https://creativecommons.org/licenses/by-sa/3.0/ (cc) by-sa 3.0
+	 *	@package WordPress
+	 *	@subpackage JupiTheme
+	 */
+	
 	get_header();
 
 	showPosts();

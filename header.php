@@ -1,3 +1,13 @@
+<?php
+	/**
+	 *	Just the header.
+	 *
+	 *	@author Leonard Techel
+	 *	@license https://creativecommons.org/licenses/by-sa/3.0/ (cc) by-sa 3.0
+	 *	@package WordPress
+	 *	@subpackage JupiTheme
+	 */
+?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
 	<head>
